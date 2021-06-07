@@ -1,4 +1,4 @@
-#create a new Customer Object
+#create a new Customer object
 
 require 'stripe'
 Stripe.api_key = 'INSERT_SECRET_KEY_HERE'
