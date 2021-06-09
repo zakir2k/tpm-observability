@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'datadog/statsd'
-require 'thin'
 
 # Create a DogStatsD client instance.
 statsd = Datadog::Statsd.new('localhost', 8125)
